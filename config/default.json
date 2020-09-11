@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://hazique:sieger123@testcluster.fwipd.gcp.mongodb.net/MyMernApp?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://hazique:sieger123@testcluster.fwipd.gcp.mongodb.net/MyMernApp?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
 }

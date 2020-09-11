@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server.js",
+    "debug": "nodemon --inspect ."
   },
   "author": "Hazique Quazi",
   "license": "MIT",
@@ -22,5 +23,11 @@
   "devDependencies": {
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
+  },
+
+  "nodemonConfig": {
+    "watch": [
+      "."
+    ]
   }
 }
